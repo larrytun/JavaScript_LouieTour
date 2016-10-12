@@ -1,0 +1,17 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#map {
+  height: 500px;
+  width: 500px;
+  border: 2px solid black;
+  margin: 0 auto;
+}
+.well {
+  margin-top: 20px;
+}
+#title, .locationEnter {
+  text-align: center;
+}
