@@ -10,7 +10,15 @@ html, body {
   background-size: cover;
 }
 
-#search{
+h3 {
+  color: $white;
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  text-shadow: 6px 6px 10px black;
+}
+
+#search {
   text-align: center;
 }
 
@@ -20,6 +28,17 @@ html, body {
   border: 2px solid black;
   margin: 0 auto;
 }
+
+#title {
+  font-size: 120px;
+  font-weight: bold;
+  text-align: center;
+  color: $red;
+  text-shadow: 0 0 10px $white;
+  opacity: .85;
+  font-family: sans-serif;
+}
+
 .well {
   margin-top: 20px;
   background-image: url("../../img/bricks.jpg");
@@ -33,15 +52,7 @@ html, body {
 .locationEnter {
   text-align: center;
 }
-#title {
-  font-size: 120px;
-  font-weight: bold;
-  text-align: center;
-  color: $red;
-  text-shadow: 0 0 10px $white;
-  opacity: .85;
-  font-family: sans-serif;
-}
+
 .jumbotron {
   margin: auto;
   margin-bottom: 10px;
@@ -54,12 +65,4 @@ html, body {
 
 .form-control {
   margin-left: 305px;
-}
-
-h3 {
-  color: $white;
-  font-size: 40px;
-  font-family: sans-serif;
-  font-weight: bolder;
-  text-shadow: 6px 6px 10px black;
 }
