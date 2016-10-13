@@ -1,0 +1,33 @@
+$gray: #232323;
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: $gray;
+}
+#map {
+  height: 700px;
+  width: 900px;
+  border: 2px solid black;
+  margin: 0 auto;
+}
+.well {
+  margin-top: 20px;
+  background-color: grey;
+  border: 3px solid black;
+  width: 950px;
+  margin: 0 auto;
+}
+.locationEnter {
+  text-align: center;
+}
+#title {
+  font-size: 102px;
+  text-align: center;
+  color: black;
+  text-shadow: 0 0 10px white;
+}
+.jumbotron {
+  background-color: grey;
+}

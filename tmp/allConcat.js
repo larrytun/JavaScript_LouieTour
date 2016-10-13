@@ -1,5 +1,5 @@
 var Tour = require('./../js/maps.js').tourModule;
-var apiKey = require('./../.env').apiKey;
+// var apiKey = require('./../.env').apiKey;
 
 $(document).ready(function() {
   var tour = new Tour();
