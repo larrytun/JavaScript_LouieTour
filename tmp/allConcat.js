@@ -1,11 +1,10 @@
-$(document).ready(function()) {
-  $("#locationEnter").submit(function(event) {
-    var map;
-    function initMap() {
-      map = new google.maps.Map(document.getElementById('map'), {
-        center: {lat: 40.4567374, lng: -79.9942303},
-        zoom: 10
-      });
-    }
-  });
-}
+var Tour = require('./../js/maps.js').tourModule;
+var apiKey = require('./../.env').apiKey;
+
+$(document).ready(function() {
+  var tour = new Tour();
+
+  setTimeout(function() {
+    tour.initMap();
+  }, 1000);
+});
