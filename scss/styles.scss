@@ -1,33 +1,65 @@
 $gray: #232323;
+$red: #9C191F;
+$white: #FCF6EA;
 
 html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: $gray;
+  background-image: url("../../img/louboy.jpg");
+  background-size: cover;
 }
+
+#search{
+  text-align: center;
+}
+
 #map {
   height: 700px;
-  width: 900px;
+  width: 950px;
   border: 2px solid black;
   margin: 0 auto;
 }
 .well {
   margin-top: 20px;
-  background-color: grey;
+  background-image: url("../../img/bricks.jpg");
+  background-size: cover;
+  background-position: center;
   border: 3px solid black;
-  width: 950px;
+  width: 1000px;
   margin: 0 auto;
+
 }
 .locationEnter {
   text-align: center;
 }
 #title {
-  font-size: 102px;
+  font-size: 120px;
+  font-weight: bold;
   text-align: center;
-  color: black;
-  text-shadow: 0 0 10px white;
+  color: $red;
+  text-shadow: 0 0 10px $white;
+  opacity: .85;
+  font-family: sans-serif;
 }
 .jumbotron {
-  background-color: grey;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 1000px;
+  background-position: center;
+  background-size: cover;
+  background-image: url("http://cdn.collider.com/wp-content/uploads/2015/04/louie-season-5-slice-600x200.jpg");
+}
+
+.form-control {
+  margin-left: 305px;
+}
+
+h3 {
+  color: $white;
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  text-shadow: 6px 6px 10px black;
 }

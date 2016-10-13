@@ -30,7 +30,7 @@ Tour.prototype.initMap = function(show) {
     mapTypeId: 'terrain'
   });
   // debugger;
-var iconBase = 'img/lou.png';
+var iconBase = 'img/louiefacepurp.png';
 
   for (i = 0; i < markers.length; i++) {
     var marker = new google.maps.Marker({
